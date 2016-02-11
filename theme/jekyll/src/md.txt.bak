@@ -1,0 +1,49 @@
+---
+layout: page
+title: Resume - {{ r.name }}
+tags: [Resume, {{ r.name }}]
+modified: 2016-02-10
+comments: true
+image:
+  feature: sample-image-2.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+---
+
+{{ r.name }}
+
+============
+{{#has 'contact.email' }}Email: {{{ r.contact.email }}}{{/has}}<br />
+{{#has 'contact.phone' }}Tel: {{{ r.contact.phone }}}{{/has}}<br />
+{{#has 'contact.website' }}Web: {{{ r.contact.website }}}{{/has}}<br />
+
+{{> section/info }}
+
+{{> section/skills }}
+
+{{> section/employment }}
+
+{{> section/projects }}
+
+{{> section/governance }}
+
+{{> section/education }}
+
+{{> section/affiliation }}
+
+{{> section/samples }}
+
+{{> section/writing }}
+
+{{> section/reading }}
+
+{{> section/service }}
+
+{{> section/recognition }}
+
+{{> section/speaking }}
+
+{{> section/references }}
+
+{{> section/interests }}
+
