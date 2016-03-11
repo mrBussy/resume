@@ -10,7 +10,7 @@
   "info": {
     "label": "ICT analist",
     "characterClass": "Analist",
-    "brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in scalable cloud architectures for this, that, and the other. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two-year-old beagle.",
+    "brief": "*,
     "image": "rudi_middel.png",
     "quote": "Be the change you want to see in the world."
   },
@@ -24,11 +24,6 @@
         "label": "Home Phone",
         "flavor": "phone",
         "value": "+31 40 845 33 60"
-      },
-      {
-        "label": "Work Phone",
-        "flavor": "phone",
-        "value": "1-650-777-1234"
       }
     ]
   },
@@ -42,41 +37,7 @@
   },
 
   "projects": [
-    {
-      "title": "HackMyResume",
-      "category": "FOSS",
-      "role": "contributor",
-      "url": "http://please.hackmyresume.com",
-      "repo": "https://github.com/hacksalot/hackmyresume",
-      "description": "A resume authoring and analysis tool for OS X, Linux, and Windows.",
-      "summary": "Exemplar user for HackMyResume and FluentCV!",
-      "keywords": ["JavaScript", "Node.js", "cross-platform", "JSON"],
-      "media": [
-        {
-          "category": "download",
-          "url": "https://www.npmjs.com/package/hackmyresume"
-        }
-      ]
-    },
-    {
-      "title": "Augmented Android",
-      "category": "commercial",
-      "role": "co-creator",
-      "url": "http://project.website.com",
-      "repo": "http://repo.website.com",
-      "description": "An augmented reality app for Android.",
-      "summary": "Performed flagship product conceptualization and development.",
-      "keywords": ["Android", "Java", "Xamarin"]
-    },
-    {
-      "title": "Blog",
-      "category": "personal",
-      "role": "creator",
-      "url": "http://myblog.jane.com/blog",
-      "description": "My programming blog. Powered by Jekyll.",
-      "summary": "Conceptualization, design, development, and deployment.",
-      "keywords": ["Jekyll", "Ruby", "HTML 5", "JavaScript", "HTTP", "LAMP"]
-    }
+
   ],
 
   "social": [
@@ -86,6 +47,13 @@
       "network": "GitHub",
       "user": "mrBussy",
       "url": "https://github.com/mrBussy"
+    },
+    
+	{
+      "label": "Facebook",
+      "network": "Facebook",
+      "user": "rudi.middel",
+      "url": "https://www.facebook.com/rudi.middel"
     },
 
     {
@@ -103,45 +71,81 @@
     "history": [
 
       {
-        "employer": "One Cool Startup",
-        "url": "https://onecool.io/does-not-exist",
-        "position": "Head Code Ninja",
-        "summary": "Development team manager for [OneCoolApp](https://en.wikipedia.org/wiki/Vaporware) and OneCoolWebsite, a free social network tiddlywink generator and lifestyle portal with over 200,000 users.",
-        "start": "2013-09",
+        "employer": "Malmberg B.V.",
+        "url": "http://www.malmberg.nl",
+        "position": "ICT Analist",
+        "summary": "As part of multiple scrum teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement.<br/>As part of a single project analysing all processes and creating requirements required to help the project get to the next phase.",
+        "start": "2015-07",
         "current": true,
-        "keywords": ["Agile","PM","Amazon Web Services","AWS"],
-        "highlights": ["Managed a 5-person development team", "Accomplishment 2", "Etc."]
+        "keywords": ["Agile","Analyse","Publisher","Amazon Web Services","AWS"],
+        "highlights": ["Investigate & describe how to create Folio from the Editorial Suite","Describe requirements within the Distribution & Access domain"]
       },
 
       {
-        "employer": "Veridian Dynamics",
-        "url": "https://en.wikipedia.org/wiki/Better_Off_Ted#Plot",
-        "position": "Principal Developer",
-        "summary": "Developer on numerous projects culminating in technical lead role for the [Jabberwocky project](http://betteroffted.wikia.com/wiki/Jabberwocky) and promotion to principal developer.",
+        "employer": "SkillSource",
+        "url": "http://wwww.skillsource.nl",
+        "position": "Functioneel ontwerper",
+        "summary": "Further enhance the development of software hosted by SkillSource.nl. This includes the redesign of the tools, further update internal processes and bring the development to a higher level.",
+        "start": "2014-05",
+        "end": "2015-04",
+        "keywords": ["Architecture","OffShore","Redesign"],
+        "highlights": ["Redesign Incassobeheer.nl", "Improve architecture of software components"]
+      },
+
+      {
+        "employer": "KLM Royal Dutch Airlines",
+        "position": "Business Analist",
+        "summary": "Investigate processes, gathering requirements and project leading are the key features of my job.<br/>Maintaining a good and healthy relation with the process/business owner of requests while working together with the Application Developers or IT specialists working on the projects can be of a challenge. Mainly because they have different wishes and expectations.",
         "start": "2011-07",
-        "end": "2013-08",
-        "keywords": ["C++","C","Linux"],
-        "highlights": ["Managed a 5-person development team", "Accomplishment 2", "Etc."]
+        "end": "2014-04",
+        "keywords": ["Operations Control","Network Control","Collaborative","Multiple partners", "Air France"],
+        "highlights": ["Implementation & maintaining Millord Sirocco for KLM", "CMD@AMS implementation"]
       },
 
       {
-        "employer": "Stark Industries",
-        "position": "IT Administrator",
-        "summary": "Junior programmer with heavy code responsibilities. Promoted to intermediate role after 6 months.",
-        "start": "2008-10",
+        "employer": "KLM Cityhopper",
+        "position": "Business Analist",
+        "summary": "Investigate processes, gathering requirements and project leading are the key features of my job. Maintaining a good and healthy relation with the process/business owner of requests while working together with the Application Developers or IT specialists working on the projects can be of a challenge. Meanly because they have different wishes and expectations.<br/>The biggest and most rewarding project I am involved in, is the development and standardization of the processes on our department Information Management. These transformation of a Ad-Hoc organization to a more structured and solid department is a change I’m glad to be part of.",
+        "start": "2008-09",
         "end": "2011-06",
-        "keywords": ["Novell","Active Directory","Linux","Windows"],
-        "highlights": ["Promoted to intermediate developer after 6 months", "Accomplishment 2", "Etc."]
+        "keywords": ["Structure","Requirements Gathering","Standarization","Development process","Analyse"],
+        "highlights": ["Developing and standarization of processes","Implementation new Labor Agreement","Implementation new aircraft type"]
       },
 
       {
-        "employer": "Dunder Mifflin",
-        "position": "Intern",
-        "summary": "Performed IT administration and deployments for Dunder Mifflin.",
-        "start": "2008-06",
+        "employer": "KLM Cityhopper",
+        "position": "Senior Application Developer / Analist",
+        "summary": "Developing and maintaining software to support the business. Continuity and operational performance are the keywords during every days work.",
+        "start": "2007-08",
         "end": "2008-09",
-        "keywords": ["Novell","Active Directory","Linux","Windows"],
-        "highlights": ["Supervised roll-out of Dunder Mifflin Infinity website.", "Performed mission-critical system backups and ", "Etc."]
+        "keywords": ["Software Development","ASP","ASP.NET","Mircosoft Office","Web2.0"]
+      },
+
+      {
+        "employer": "KLM Cityhopper",
+        "position": "Application Developer / Analist",
+        "summary": "Developing and maintaining software to support the business. Continuity and operational performance are the keywords during every days work.",
+        "start": "2005-07",
+        "end": "2007-07",
+        "keywords": ["Software Development","ASP","ASP.NET","Mircosoft Office","Web2.0"]
+      },
+      {
+        "employer": "Q-Magic",
+        "position": "Application Developer",
+        "summary": "As a software developer I had small internal assignments. I also supported colleagues who required some support. This could be with technical questions as well as with a talk when they were stuck with the assignment at the customer. My final assignment was with KLM Cityhopper.",
+        "start": "2005-03",
+        "end": "2005-06",
+        "keywords": ["Software Development","ASP","ASP.NET","Mircosoft Office","Web2.0"],
+	"highlights": ["Supporting colleagues"]
+      },
+      {
+        "employer": "Infoland B.V.",
+        "position": "Software Engineer",
+        "summary": "Beside my study I created a system called Raadsleden Informatie Systeem. Also I was heavily involved in the creation of the Document Kwaliteit Systeem and a web portal.",
+        "start": "1999-01",
+        "end": "2005-02",
+        "keywords": ["Software Development","ASP","ASP.NET","Mircosoft Office","vb.net"],
+	"highlights": ["Creation of Raadsleden Informatie Systeem","Creation of Document Kwaliteits Systeem","Customization Project"]
       }
     ]
 
@@ -153,57 +157,26 @@
 
     "level": "degree",
 
-    "degree": "BSCS",
+    "degree": "Bsc",
 
     "history": [
 
       {
-        "institution": "Cornell University",
-        "url": "https://www.cornell.edu/",
-        "start": "2005-09",
-        "end": "2008-05",
-        "grade": "3.5",
-        "summary": "A multiline summary of the education.",
-        "curriculum": ["Course 1", "Course 2", "Course 2"]
+        "institution": "Fontys Hogenscholen",
+        "url": "https://www.fontys.nl/",
+        "start": "01-2000",
+        "end": "08-2004",
+        "summary": "<p>I attended Higher Informatics at the Fontys University of Applied Sience.</p><p>During this study the focus lay on the development of Software and Project Management.</p>",
+        "curriculum": ["Software Engineering"]
       },
 
       {
-        "institution": "Medfield College",
+        "institution": "Technisch Lyceum Eindhoven",
         "url": "https://en.wikipedia.org/wiki/Medfield_College",
-        "start": "2003-09",
-        "end": "2005-06",
-        "grade": "3.2",
-        "summary": "A multiline summary of the education.",
-        "curriculum": ["Course 1", "Course 2", "Course 2"]
-      }
-    ]
-
-  },
-
-  "service": {
-
-    "summary": "Active US Army Reserve member and Technology for Tots technical consultant and volunteer coordinator.",
-
-    "history": [
-      {
-        "flavor": "volunteer",
-        "position": "Technical Consultant",
-        "organization": "Technology for Tots",
-        "url": "http://technology-for-tots.org",
-        "start": "2003-11",
-        "end": "2005-06",
-        "summary": "Summary of this volunteer stint.",
-        "highlights": ["Accomplishment 1", "Accomplishment 2", "etc"]
-      },
-      {
-        "flavor": "military",
-        "position": "NCO",
-        "organization": "US Army Reserves",
-        "url": "http://www.usar.army.mil/",
-        "start": "1999-11",
-        "end": "2003-06",
-        "summary": "Summary of this military stint.",
-        "highlights": ["Accomplishment 1", "Accomplishment 2", "etc"]
+        "start": "08-1996",
+        "end": "01-2000",
+        "summary": "<p>A basic education focused on the use of Software Design, Network Control and Software itself (i.e. Autocat).</p><p>There is also a curriculum based on Electronics.</p><p>During this education I worked on a project called The BitSim. This 8051 micro-controller can be used in the classroom to train on Embedded Software design. I was responsable for creating a Basic parser.</p>",
+        "curriculum": ["Software Development"]
       }
     ]
 
@@ -214,14 +187,14 @@
     "sets": [
       {
         "name": "Web Development",
-        "level": "advanced",
+        "level": "intermediate",
         "skills": [
-          "JavaScript", "HTML 5", "CSS", "LAMP", "MVC", "REST"
+          "JavaScript", "HTML 5", "CSS", "LAMP", "MVC", "REST", "CSS3", "PHP"
         ]
       },
       {
         "name": "JavaScript",
-        "level": "master",
+        "level": "beginner",
         "skills": [
           "Node.js", "Angular.js", "jQuery", "Bootstrap", "React.js", "Backbone.js"
         ]
@@ -230,119 +203,48 @@
         "name": "Database",
         "level": "intermediate",
         "skills": [
-          "MySQL", "PostgreSQL", "NoSQL", "ORM", "Hibernate"
+          "MySQL", "MS SQL"
         ]
       },
       {
         "name": "Cloud",
         "level": "intermediate",
         "skills": [
-          "AWS", "EC2", "RDS", "S3", "Azure", "Dropbox"
+          "AWS", "EC2", "RDS", "S3", "Azure", "Dropbox", "Google Drive", "SyncThing"
         ]
       },
       {
         "name": "Project",
-        "level": "beginner",
+        "level": "Advanced",
         "skills": [
-          "Agile", "TFS", "Unified Process", "MS Project"
+          "Agile", "Jira", "MS Project"
         ]
       }
     ],
 
     "list": [
-      {
-        "name": "C++",
-        "id": "1",
-        "summary": "Optional summary of your experience with the skill.",
-        "level": "9",
-        "years": 7,
-        "proof": "http://myblog.com/interesting-cplusplus-post"
-      },
-      {
-        "name": "Ruby",
-        "id": "2",
-        "summary": "Optional summary of your experience with the skill.",
-        "level": "9",
-        "years": 7,
-        "proof": "http://myblog.com/interesting-cplusplus-post"
-      },
-      {
-        "name": "Xcode",
-        "summary": "Xcode 6 development.",
-        "level": "5",
-        "years": "3"
-      },
+      
       {
         "name": "Linux",
-        "summary": "Optional summary of your experience with the skill.",
-        "level": "advanced",
-        "years": "4+"
-      },
-      {
-        "name": "Agile",
-        "summary": "Optional summary of your experience with the skill.",
-        "level": "B+",
-        "years": 2
+        "summary": "Experienced with setup & maintaining small servers.",
+        "level": "intermediate",
+        "years": "10+"
       }
     ]
   },
 
   "samples": [
-    {
-      "title": "Asteroids",
-      "summary": "A browser-based space shooter built on Three.js.",
-      "url": "http://janef.me/asteroids",
-      "date": "2014-09"
-    },
-    {
-      "title": "Rememberpedia",
-      "summary": "A website to help you remember things.",
-      "url": "https://rememberpedia.com",
-      "date": "2015-07"
-    }
   ],
 
   "writing": [
-    {
-      "title": "Teach Yourself GORFF in 21 Days",
-      "flavor": "book",
-      "date": "2008",
-      "publisher": {
-        "name": "Amazon",
-        "url": "https://www.amazon.com"
-      },
-      "url": "http://url.to.publication.com/blah",
-      "author": [ "Jane Fullstacker", "John Smith" ],
-      "summary": "A primer on the programming language of GORFF, whose for loops are coterminous with all of time and space."
-    },
-    {
-      "title": "Building User Interfaces with Electron and Atom",
-      "flavor": "article",
-      "date": "2011",
-      "publisher": {
-        "name": "Code Project",
-        "url": "http://codeproject.com"
-      },
-      "url": "http://codeproject.com/build-ui-electron-atom.aspx"
-    },
-    {
-      "title": "Jane Fullstacker's Blog",
-      "flavor": "blog",
-      "date": "2011",
-      "publisher": {
-        "name": "self",
-        "url": "http://janef.me"
-      },
-      "url": "http://janef.me"
-    }
   ],
 
   "reading": [
     {
-      "title": "Code Complete",
-      "flavor": "book",
-      "url": "http://www.cc2e.com/Default.aspx",
-      "author": "Steve McConnell"
+      "title": "Tweakers.net",
+      "flavor": "Website",
+      "url": "http://www.tweakers.net",
+      "author": ""
     },
     {
       "title": "r/programming",
@@ -350,66 +252,20 @@
       "url": "https://www.reddit.com/r/programming/"
     },
     {
-      "title": "Hacker News / YCombinator",
+      "title": "NOS.nl",
       "flavor": "website",
-      "url": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Coding Horror",
-      "flavor": "blog",
-      "url": "http://www.codinghorror.com",
-      "author": "Jeff Atwood"
+      "url": "https://www.nos.nl/"
     }
   ],
 
   "speaking": [
-    {
-      "title": "Data Warehousing Evolved: DARMA 2.0",
-      "role": "Speaker",
-      "event": "OPENSTART 2013 Developer's Conference",
-      "location": "Portland, OR",
-      "date": "2012",
-      "highlights": [
-        "Won 'Best Presentation on an Emerging Technical Field' prize."
-      ]
-    }
   ],
 
   "recognition": [
-    {
-      "flavor": "award",
-      "from": "Google",
-      "title": "Honorable Mention",
-      "event": "Summer of Code",
-      "date": "2012"
-    },
-    {
-      "flavor": "honor",
-      "from": "Cornell University",
-      "title": "Summa cum laude",
-      "event": "graduation",
-      "date": "2012"
-    }
+    
   ],
 
   "references": [
-    {
-      "name": "John Davidson",
-      "flavor": "professional",
-      "private": true,
-      "contact": [
-        {
-          "label": "Mobile",
-          "flavor": "phone",
-          "value": "9-(999)-999-9999"
-        },
-        {
-          "label": "Work email",
-          "flavor": "email",
-          "value": "jdavidson@veridiandynamics.com"
-        }
-      ]
-    }
   ],
 
   "testimonials": [
@@ -444,62 +300,29 @@
   ],
 
   "extracurricular": [
-    {
-      "title": "Bay Area Crew Club",
-      "activity": "",
-      "location": "San Francisco, CA",
-      "start": "2014-05"
-    },
-    {
-      "title": "Organizer / Manager",
-      "activity": "JavaScript Game Development Meetup",
-      "location": "Austin, TX",
-      "start": "2011-03",
-      "end": "2014-01",
-      "highlights": [
-        "Monthly speaker on creative JavaScript development.",
-        "Founded group and oversaw growth to 500+ members."
-      ]
-
-    }
   ],
 
   "governance": [
     {
       "flavor": "board",
-      "role": "Member",
-      "organization": "The Mommies Network",
-      "url": "http://themommiesnetwork.org",
-      "start": "2008-02",
-      "end": "2010-01",
-      "summary": "Since 2008 I've been a full-time member of the board of directors for TMN."
-    },
-    {
-      "flavor": "committee",
-      "role": "Academic Contributor",
-      "organization": "Khronos Group",
-      "url": "https://www.khronos.org",
-      "start": "2015-01",
-      "highlights": [
-        "Participated in GORFF standardization process (Draft 2)."
-      ]
+      "role": "Chairmen",
+      "organization": "Ge Wit 't Oit Noit Nie",
+      "url": "http://gewittoitnoitnie.nl",
+      "start": "2015-03",
+      "summary": "Since 2015 I've been chairmen of Ge Wit 't Oit Noit Nie. This organisation takes part in the Brabantse Dag which is held every year in Heeze, The Netherlands."
     }
-  ],
+    ],
 
   "interests": [
     {
-      "name": "reading",
-      "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
-      "keywords": [ "mystery", "Agatha Christie", "John Grisham" ]
+      "name": "Photography",
+      "summary": "Capture as many moments as you can. Memory will fade, pictures remain.",
+      "keywords": [ "Photography", "Canon", "Memory" ]
     },
     {
       "name": "hiking",
-      "summary": "Jane enjoys hiking, light mountain climbing, and has four summits under her belt!"
-    },
-    {
-      "name": "yoga"
+      "summary": "Enjoy the outdoor!"
     }
-  ]
-
+    ]
 
 }
