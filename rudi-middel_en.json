@@ -10,7 +10,7 @@
   "info": {
     "label": "ICT analist",
     "characterClass": "Analist",
-    "brief": "*,
+    "brief": "",
     "image": "rudi_middel.png",
     "quote": "Be the change you want to see in the world."
   },
@@ -169,8 +169,8 @@
       {
         "institution": "Fontys Hogenscholen",
         "url": "https://www.fontys.nl/",
-        "start": "01-2000",
-        "end": "08-2004",
+        "start": "2000-01",
+        "end": "2004-08",
         "summary": "<p>I attended Higher Informatics at the Fontys University of Applied Sience.</p><p>During this study the focus lay on the development of Software and Project Management.</p>",
         "curriculum": ["Software Engineering"]
       },
@@ -178,8 +178,8 @@
       {
         "institution": "Technisch Lyceum Eindhoven",
         "url": "https://en.wikipedia.org/wiki/Medfield_College",
-        "start": "08-1996",
-        "end": "01-2000",
+        "start": "1996-08",
+        "end": "2000-01",
         "summary": "<p>A basic education focused on the use of Software Design, Network Control and Software itself (i.e. Autocat).</p><p>There is also a curriculum based on Electronics.</p><p>During this education I worked on a project called The BitSim. This 8051 micro-controller can be used in the classroom to train on Embedded Software design. I was responsable for creating a Basic parser.</p>",
         "curriculum": ["Software Development"]
       }
