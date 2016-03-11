@@ -24,6 +24,11 @@
         "label": "Home Phone",
         "flavor": "phone",
         "value": "+31 40 845 33 60"
+      },
+      {
+        "label": "Work Phone",
+        "flavor": "phone",
+        "value": "+31 6 53 54 92 58"
       }
     ]
   },
