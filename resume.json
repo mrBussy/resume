@@ -1,0 +1,240 @@
+{
+  "basics": {
+    "name": "Rudi Middel",
+    "label": "ICT analist",
+    "picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/p160x160/10933749_10155132859065192_3746069380651735575_n.jpg?oh=3beb0b85b0937178df2576900d3adbea&oe=59514573",
+    "email": "r.middel@mrbussy.eu",
+    "phone": "+31 6 53549258",
+    "website": "http://www.mrbussy.eu",
+    "summary": "Curious, having fun and enjoying life are my core values. Whether it concerns my personal or my professional life. As a father, I see the joy in my children every dag. In my work the joy translates to working hard and completing my projects. It does not matter if this is to solve complex issues, creating a report or starting something new and unknown. I will perform the tasks with undivided attention and dedication. Leaving no moment untouched to celebrate. As a Bourgondiër I know how to appreciate good food and company.",
+    "location": {
+      "address": "De Tinnegieter 33",
+      "postalCode": "5591 MN",
+      "city": "Heeze",
+      "countryCode": "NL"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "mrBussy",
+        "url": "https://twitter.com/mrbussy"
+      },
+      {
+        "network": "Facebook",
+        "username": "Rudi Middel",
+        "url": "https://www.facebook.com/rudi.middel"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "rudimiddel",
+        "url": "https://www.linkedin.com/in/rudimiddel/"
+      },
+      {
+        "network": "GitHub",
+        "username": "mrBussy",
+        "url": "https://github.com/mrBussy"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Malmberg B.V.",
+      "position": "ICT Analist",
+      "website": "http://www.malmberg.nl",
+      "startDate": "2015-07-01",
+      "summary": "As part of multiple scrum teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement. Also making sure that the requirement is the 'real' question that is asked by the PO.",
+      "highlights": [
+        "Restructuring the DT Scrum process",
+        "Starting up the Malmberg Content Chain Requirement process",
+        "Untangling multiple dataflows en creating structure in the data",
+        "Separating presentation from the input of content"
+      ]
+    },
+    {
+      "company": "SkillSource",
+      "position": "Functioneel ontwerper",
+      "website": "http://www.skillsource.nl",
+      "startDate": "2014-05-01",
+      "endDate": "2015-04-30",
+      "summary": "Further enhance the development of software hosted by SkillSource.nl. This includes the redesign of the tools, further update internal processes and bring the software development to a higher level.",
+      "highlights": ["Redesign Incassobeheer.nl", "Improve architecture of software components"]
+    },
+    {
+      "company": "KLM Royal Dutch Airlines",
+      "position": "Business Analist",
+      "website": "http://www.klm.com",
+      "startDate": "2011-07-01",
+      "endDate": "2014-04-30",
+      "summary": "Investigate processes, gathering requirements and leading project are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request managment while working together with the Application Developers or IT specialists capability (mainly based in Toulouse, France), can be a challenge. Especially in a complex project like CDM@AMS where multiple companies and stakeholders work together.",
+      "highlights": ["Implementation & maintaining Millord Sirocco for KLM", "CMD@AMS implementation"]
+    },
+    {
+      "company": "KLM Cityhopper",
+      "position": "Business Analist",
+      "website": "http://www.klm.com",
+      "startDate": "2008-09-01",
+      "endDate": "2011-06-30",
+      "summary": "Investigate processes, gathering requirements and leading projects are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request managment while working together with the Application Developers or IT specialists capability, can be a challenge. Mainly because they have different wishes and expectations. The biggest and most rewarding project I was involved in, was the development and standardization of the processes in our department Information Management. This transformation of an ad hoc organization to a more structured and solid department is a change I’m glad to have been part of.",
+      "highlights": ["Developing and standarization of processes","Implementation new Labor Agreement","Implementation new aircraft type"]
+    },
+    {
+      "company": "KLM Cityhopper",
+      "position": "Senior Application Developer / Analist",
+      "website": "http://www.klm.com",
+      "startDate": "2007-08-01",
+      "endDate": "2008-09-01",
+      "summary": "Developing and maintaining software to support the business. Continuity and operational performance are the keywords during every day work.",
+      "highlights": ["Development of a new planning system for ground services"]
+    },
+    {
+      "company": "KLM Cityhopper",
+      "position": "Senior Application Developer / Analist",
+      "website": "http://www.klm.com",
+      "startDate": "2005-07-01",
+      "endDate": "2007-07-01",
+      "summary": "Developing and maintaining software to support the business. Continuity and operational performance are the keywords during every day work.",
+      "highlights": ["Multiple small projects"]
+    },
+    {
+      "company": "Q-Magic",
+      "position": "Application Developer",
+      "startDate": "2005-03-01",
+      "endDate": "2005-06-01",
+      "summary": "As a software developer I had small internal assignments. I also supported colleagues who needed help. This could be with technical questions as well as to brainstorm when stuck on an assignment for a customer. My final assignment was with KLM Cityhopper.",
+      "highlights": ["Supporting colleagues"]
+    },
+    {
+      "company": "Infoland B.V.",
+      "position": "Software Engineer",
+      "startDate": "1999-01-01",
+      "endDate": "2005-02-01",
+	  "summary": "As a part-time job during college I created a system called Raadsleden Informatie Systeem. I also had a major part in the creation of the Document Kwaliteit Systeem and a web portal.",
+	  "highlights": ["Creation of Raadsleden Informatie Systeem","Creation of Document Kwaliteits Systeem","Customization Project"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Vriendenkring Ge Wit 'T Oit Noit Nie",
+      "position": "Chairman",
+      "website": "http://gewittoitnoitnie.nl",
+      "startDate": "2015-03-01",
+      "summary": "Since 2015 I've been chairman of Ge Wit 't Oit Noit Nie. This organisation creates a rolling theater each year in August as part of an event called Brabantsedag."
+    }
+  ],
+  "education": [
+    {
+    	"institution": "Fontys Hogenscholen",
+    	"area": "Higher Informatics",
+		"studyType": "Bachelor",
+    	"startDate": "2000-01-01",
+        "endDate": "2004-08-01",
+        "summary": "I attended Higher Informatics at the Fontys University of Applied Sience. This study focusses on software development and project management.",
+        "courses": ["Software Engineering"]
+    },
+    {
+    	"institution": "Technisch Lyceum Eindhoven",
+    	"area": "Technische Informatica",
+    	"startDate": "1996-08-01",
+        "endDate": "2000-01-01",
+        "summary": "A basic education program focused on the use of Software Design, Network Control and Software itself (i.e. Autocat). There is also a curriculum based on electronics. During this program I worked on a project called The BitSim. This 8051 micro-controller that can be used in the classroom to train on Embedded Software design. I was responsable for creating a Basic parser."
+    }
+
+  ],
+  "skills": [
+	  {
+	  	"name": "Publisher",
+	  	"level": "Advanced",
+	  	"keywords": [
+	  	  "Editorial", "Asset process", "Publication", "Content models",
+	  	  "Interaction", "Folio", "Licenses", "Order To Cash"
+	  	]
+	  },
+	  {
+	  	"name": "Process Modeling",
+	  	"level": "intermediate",
+	  	"keywords": [
+	  		"ARIS", "Archimate", "Enterprise Architect"
+	  	]
+	  },
+     {
+        "name": "Web Development",
+        "level": "intermediate",
+        "keywords": [
+          "JavaScript", "HTML 5", "CSS", "LAMP", "MVC", "REST", "CSS3", "PHP"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "keywords": [
+          "Node.js", "Angular.js", "jQuery", "Bootstrap", "React.js", "Backbone.js"
+        ]
+      },
+      {
+        "name": "Database",
+        "level": "intermediate",
+        "keywords": [
+          "MySQL", "MS SQL"
+        ]
+      },
+      {
+      	"name": "Programming",
+      	"level": "intermediate",
+      	"keywords": [
+      		"C", "C++", "Java"
+      	]
+      },
+      {
+        "name": "Cloud",
+        "level": "intermediate",
+        "keywords": [
+          "AWS", "EC2", "RDS", "S3", "Azure", "Dropbox", "Google Drive", "SyncThing", "MS Office 365"
+        ]
+      },
+      {
+        "name": "Project",
+        "level": "Advanced",
+        "keywords": [
+          "Agile", "SCRUM", "Jira", "MS Project", "Prince 2"
+        ]
+      }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Photography",
+	  "summary": "Capture as many moments as you can. Memory will fade, pictures remain.",
+      "keywords": [
+        "Outdore",
+        "Children"
+      ]
+    },
+    {
+      "name": "Travel",
+      "keywords": [
+      	"Meet & greet",
+      	"New culture",
+      	"Enrich myself"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Bram Bregman",
+      "reference": "I know Rudi as enthousiastic, flexible, driven and eager to learn. He has relevant expertise in the airline operations domain and he possesses a profound and broad knowledge of IT. Four years ago, I got acquainted with Rudi when he was a professional senior application developer. Nowadays, Rudi shows an equal high level of professionalism in his role as business analyst. This combination of experiences makes Rudi a valuable sparring-partner for both business as well as IT."
+    },
+	{
+      "name": "Mirjam Bonnema",
+      "reference": "Working with Rudi has been enjoyable since he is always willing to help and he approaches things with a positive and professional mind."
+    }
+  ]
+}
