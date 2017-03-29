@@ -1,0 +1,23 @@
+{
+  "title": "basis",
+  "description": "A theme that is a basis for other themes.",
+  "author": "R. Middel",
+  "engine": "handlebars",
+  "palette": {
+    "skillLevels": [ "#FFFFFF", "#5CB85C", "#F1C40F", "#428BCA", "#C00000" ]
+  },
+  "message": "This theme contains default unstyled formats that can be used by other themes or as a starting point for a custom theme.",
+  "fonts": {
+    "all": {
+      "default": [ "Helvetica Neue", "Helvetica", "Segoe UI", "Calibri", "sans-serif" ],
+      "heading1": ["Arial"],
+      "heading2": ["Arial"]
+    },
+    "doc": {
+      "default": "Calibri",
+      "heading1": "Trebuchet MS",
+      "heading2": "Calibri",
+      "heading3": "Calibri"
+    }
+  }
+}

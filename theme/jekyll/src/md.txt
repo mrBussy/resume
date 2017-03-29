@@ -1,0 +1,280 @@
+---
+layout: page
+title: Resume - {{ RAW.name }}
+tags: [Resume, {{ RAW.name }}]
+modified: 2016-02-10
+comments: true
+image:
+    feature: resume/desk.jpg
+    credit: Jeffrey Betts 
+    creditlink: http://mmt.li/ 
+---
+
+  <main id="main"> {{!<!-- Use your container markup of choice here -->}}
+      <div id="container">
+      <header>
+
+        {{! <!--
+          Display the candidate's name using "r" (the FRESH or JSON Resume
+          object). Keep in mind that "r" contains the MARKDOWNIFIED version
+          of the text in the user's FRESH or JRS resume because FRESH resume
+          themes support Markdown natively. If you want the un-Markdownified
+          text, you'd use RAW instead.
+        --> }}
+
+        {{! <!--
+          Give some basic contact info. Here, the HAS helper is similar
+          to a normal IF, but provides a guaranteed-to-be-safe check against a
+          particular object path. That is, ((#if contact.email)) can error out
+          (throw an exception) if contact is null, depending on Handlebars
+          engine settings, but ((#has 'contact.email')) never will.
+        --> }}
+        <div id="contact">
+          {{#if r.contact.email}}<div class="email"><a href="mailto:{{{ RAW.contact.email }}}">{{ RAW.contact.email }}</a></div>{{/if}}
+          {{#if r.contact.phone}}<div class="phone">{{ RAW.contact.phone }}</div>{{/if}}
+          {{#if r.contact.website}}<div class="website"><a href="{{{ RAW.contact.website }}}">{{ RAW.contact.website }}</a></div>{{/if}}
+        </div>
+      </header>
+
+
+{{!<!--
+  Now let's emit the candidate's summary, overriding the icon.
+-->}}
+
+{{#*inline "icon-info"}}<span class="fa fa-lg fa-info"></span>{{/inline}}
+{{> info _icon="icon-info" }}
+
+
+{{! <!--
+  Okay, let's create a custom SKILLS section with colored skill bars.
+
+  Since this is an official resume section, we want to wrap it in the
+  "section" block helper. This allows the section to be selectively
+  omitted from the resume if either a) the section is empty or b) the user
+  tells us to hide it.
+
+  As fpr the colored bars, those are just standard HTML and CSS, with the
+  height and color of each bar linked to the candidate's skill "level" from
+  the resume.
+
+  TL;DR Always wrap your sections with the "section"!
+--> }}
+
+
+{{#section 'skills' }}
+<hr>
+<section id="skills">
+  <header>
+  <h2>{{{sectionTitle "Skills"}}}</h2>
+  </header>
+  <span class="fa fa-lg fa-code"></span>
+  <ul class="list-unstyled">
+    {{#each r.skills.sets}}
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="{{ level }}" data-placement="left">
+          <div class="skill-progress {{toLower level }}"></div>
+        </div>
+        <div class="skill-info">
+          <strong>{{ name }}</strong>
+          <div class="space-top labels">
+            {{#if skills}}
+              {{#each skills}}
+                <span class="label label-keyword">{{ this }}</span>
+              {{/each}}
+            {{/if}}
+          </div>
+        </div>
+      </li>
+    {{/each}}
+  </ul>
+</section>
+{{/section}}
+
+{{! <!--
+
+  So much for SKILLS. Now let's render the EMPLOYMENT section.
+
+  We could do this manually with custom HTML, like we did with the SKILLS
+  section, but let's take advantage of some predefined partials instead.
+  FRESH provides global partials for all resume sections (employment, skills,
+  education, speaking, etc.). They're named like this:
+
+      section/skills
+      section/employment
+      section/service
+      section/recognition
+      etc..
+
+  So what we want to do is inject the "section/skills" global partial
+  and use it here in our theme. We can do that simply with:
+
+      (( /skills ))
+
+  (Replace the parentheses with brackets). However, in this case we want to
+  override the heading icon used in the global partial as well as its content.
+  That is, we want to use the "section/employment" partial, but selectively
+  override portions of it with our own markup.
+
+--> }}
+
+
+{{!<!--
+First, we create an inline partial called "icon-employment." The contents of
+this partial will be referenced by the section/employment partial we invoke
+below. This partial doesn't, by itself, render any content -- it's a template.
+-->}}
+
+{{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
+
+
+{{!<!--
+Next we create another inline partial called "body-employment" and set its
+contents to the markup we'd like to use for the body section of each job. This
+also doesn't render any content.
+-->}}
+
+{{#*inline "body-employment" }}
+<div>
+  <h3><em>{{ position }}</em>,
+    {{#if url }}
+    <a href="{{{ url }}}">{{ employer }}</a>
+    {{else}}
+    {{ employer }}
+    {{/if}}
+    </h3>
+    <span class="tenure">{{dateRange .}}</span>
+    {{#if keywords}}
+    {{#if start}}| {{/if}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
+    {{/if}}
+  <p>{{{ summary }}}</p>
+  {{> highlights }}
+</div>
+{{/inline}}
+
+{{! <!--
+  Actually render the employment section. Invoke the "section/employment"
+  partial (which lives at partials/html/section/employment.html). The header
+  icon and body of each employment stint will be rendered with the markup we
+  defined above.
+--> }}
+
+{{> employment _icon="icon-employment"}}
+
+
+{{! <!--
+  Move on to the PROJECTS section, giving it the same treatment we gave the
+  EMPLOYMENT section.
+--> }}
+
+
+{{#*inline "body-projects" }}
+<div>
+<h3>{{#if role}}<em>{{camelCase role }}</em>,{{/if}}
+{{#if url}}
+<a href="{{{ url }}}">{{ title }}</a>
+{{else}}
+{{ title }}
+{{/if}}
+</h3>
+{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
+{{#if keywords}}
+{{#if start}}| {{/if}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
+{{/if}}
+{{{ summary }}}
+{{> highlights }}
+</div>
+{{/inline}}
+
+{{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
+
+{{> projects _icon="icon-projects"}}
+
+{{! <!--
+  Move on to the EDUCATION section, giving it the same treatment we gave the
+  EMPLOYMENT section.
+--> }}
+
+
+{{#*inline "body-education" }}
+<div>
+<h3>{{#if title}}<em>{{ title }}</em>,{{/if}}
+{{#if url}}
+<a href="{{{ url }}}">{{ institution }}</a>
+{{else}}
+{{ institution }}
+{{/if}}
+</h3>
+{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
+{{#if curriculum}}
+{{#if start}}| {{/if}}<span class="keywords">{{#each curriculum}}{{{ . }}} {{/each}}</span>
+{{/if}}
+{{{ summary }}}
+{{> highlights }}
+</div>
+{{/inline}}
+
+{{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
+
+{{> education _icon="icon-education"}}
+
+
+{{! <!--
+  Move on to the GOVERNANCE section, giving it the same treatment we gave the
+  EMPLOYMENT section.
+--> }}
+
+{{#*inline "body-governance" }}
+<div>
+<h3>{{#if role}}<em>{{{ role }}}</em>,{{/if}}
+{{#if url}}
+<a href="{{{ url }}}">{{{ organization }}}</a>
+{{else}}
+{{{ organization }}}
+{{/if}}
+</h3>
+{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
+{{#if keywords}}
+{{#if start}}| {{/if}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
+{{/if}}
+{{{ summary }}}
+{{> highlights }}
+</div>
+{{/inline}}
+
+{{#*inline "icon-governance"}}<span class="fa fa-lg fa-balance-scale"></span>{{/inline}}
+
+{{> governance _icon="icon-governance"}}
+
+
+{{! <!--
+  We'll override all section heading icons the same way, for the rest of the
+  resume, using the same inline template technique.
+--> }}
+
+{{#*inline "icon-service"}}<span class="fa fa-lg fa-child"></span>{{/inline}}
+{{#*inline "icon-affiliation"}}<span class="fa fa-lg fa-share-alt"></span>{{/inline}}
+{{#*inline "icon-samples"}}<span class="fa fa-lg fa-share"></span>{{/inline}}
+{{#*inline "icon-writing"}}<span class="fa fa-lg fa-pencil"></span>{{/inline}}
+{{#*inline "icon-reading"}}<span class="fa fa-lg fa-book"></span>{{/inline}}
+{{#*inline "icon-recognition"}}<span class="fa fa-lg fa-trophy"></span>{{/inline}}
+{{#*inline "icon-speaking"}}<span class="fa fa-lg fa-users"></span>{{/inline}}
+{{#*inline "icon-references"}}<span class="fa fa-lg fa-thumbs-o-up"></span>{{/inline}}
+{{#*inline "icon-interests"}}<span class="fa fa-lg fa-bicycle"></span>{{/inline}}
+
+{{! <!--
+  And we're done with the customizations. For the rest of the resume, we'll
+  use the default section partials and style them with whatever CSS we like.
+--> }}
+
+{{> service _icon="icon-service"}}
+{{> affiliation _icon="icon-affiliation"}}
+{{> samples _icon="icon-samples"}}
+{{> writing _icon="icon-writing"}}
+{{> reading _icon="icon-reading"}}
+{{> recognition _icon="icon-recognition"}}
+{{> speaking _icon="icon-speaking"}}
+{{> references _icon="icon-references"}}
+{{> interests _icon="icon-interests"}}
+
+      </div>
+    </main>
