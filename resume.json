@@ -156,6 +156,13 @@
 	  		"ARIS", "Archimate", "Enterprise Architect"
 	  	]
 	  },
+      {
+        "name": "Project",
+        "level": "Advanced",
+        "keywords": [
+          "Agile", "SCRUM", "Jira", "MS Project", "Prince 2"
+        ]
+      },
      {
         "name": "Web Development",
         "level": "intermediate",
@@ -164,24 +171,10 @@
         ]
       },
       {
-        "name": "JavaScript",
-        "level": "beginner",
-        "keywords": [
-          "Node.js", "Angular.js", "jQuery", "Bootstrap", "React.js", "Backbone.js"
-        ]
-      },
-      {
-        "name": "Database",
-        "level": "intermediate",
-        "keywords": [
-          "MySQL", "MS SQL"
-        ]
-      },
-      {
       	"name": "Programming",
       	"level": "intermediate",
       	"keywords": [
-      		"C", "C++", "Java"
+      		"C", "C++", "Java", "Javascript", "VB.NET"
       	]
       },
       {
@@ -189,13 +182,6 @@
         "level": "intermediate",
         "keywords": [
           "AWS", "EC2", "RDS", "S3", "Azure", "Dropbox", "Google Drive", "SyncThing", "MS Office 365"
-        ]
-      },
-      {
-        "name": "Project",
-        "level": "Advanced",
-        "keywords": [
-          "Agile", "SCRUM", "Jira", "MS Project", "Prince 2"
         ]
       }
   ],
