@@ -2,7 +2,7 @@
   "basics": {
     "name": "Rudi Middel",
     "label": "ICT analist",
-    "picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/p160x160/10933749_10155132859065192_3746069380651735575_n.jpg?oh=3beb0b85b0937178df2576900d3adbea&oe=59514573",
+    "picture": "https://s.gravatar.com/avatar/4a2fe6cac1c56c17677908f576de80ad?s=360",
     "email": "r.middel@mrbussy.eu",
     "phone": "+31 6 53549258",
     "website": "http://www.mrbussy.eu",
@@ -38,10 +38,22 @@
   },
   "work": [
     {
+      "company": "Sanoma Learning",
+      "position": "Business Technology Analyst",
+      "website": "http://learning.sanoma.com",
+      "startDate": "2017-06-01",
+      "summary": "As part of multiple SCRUM teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement. Also making sure that the requirement is the 'real' question that is asked by the PO.",
+      "highlights": [
+        "Improving SCRUM process eduBASE team",
+        "Improving the Sanoma Learning Content Chain"
+      ]
+    },
+    {
       "company": "Malmberg B.V.",
       "position": "ICT Analist",
       "website": "http://www.malmberg.nl",
       "startDate": "2015-07-01",
+      "endDate": "2017-05-30",
       "summary": "As part of multiple scrum teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement. Also making sure that the requirement is the 'real' question that is asked by the PO.",
       "highlights": [
         "Restructuring the DT Scrum process",
