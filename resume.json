@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Rudi Middel",
-    "label": "ICT analist",
+    "label": "Business Technology Analyst"
     "picture": "https://s.gravatar.com/avatar/4a2fe6cac1c56c17677908f576de80ad?s=360",
     "email": "r.middel@mrbussy.eu",
     "phone": "+31 6 53549258",
     "website": "http://www.mrbussy.eu",
-    "summary": "Curious, having fun and enjoying life are my core values. Whether it concerns my personal or my professional life. As a father, I see the joy in my children every dag. In my work the joy translates to working hard and completing my projects. It does not matter if this is to solve complex issues, creating a report or starting something new and unknown. I will perform the tasks with undivided attention and dedication. Leaving no moment untouched to celebrate. As a Bourgondiër I know how to appreciate good food and company.",
+    "summary": "Curious, having fun and enjoying life are my core values. Whether it concerns my personal or my professional life. As a father, I see the joy in my children every dag. In my work the joy translates to working hard and completing my projects. It does not matter if this is to solve complex issues, creating a report or starting something new and unknown. I will perform the tasks with undivided attention and dedication. Leaving no moment untouched to celebrate. As a Burgundian I know how to appreciate good food and company.",
     "location": {
       "address": "De Tinnegieter 33",
       "postalCode": "5591 MN",
@@ -58,7 +58,7 @@
       "highlights": [
         "Restructuring the DT Scrum process",
         "Starting up the Malmberg Content Chain Requirement process",
-        "Untangling multiple dataflows en creating structure in the data",
+        "Untangling multiple data flows en creating structure in the data",
         "Separating presentation from the input of content"
       ]
     },
@@ -77,8 +77,8 @@
       "website": "http://www.klm.com",
       "startDate": "2011-07-01",
       "endDate": "2014-04-30",
-      "summary": "Investigate processes, gathering requirements and leading project are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request managment while working together with the Application Developers or IT specialists capability (mainly based in Toulouse, France), can be a challenge. Especially in a complex project like CDM@AMS where multiple companies and stakeholders work together.",
-      "highlights": ["Implementation & maintaining Millord Sirocco for KLM", "CMD@AMS implementation"]
+      "summary": "Investigate processes, gathering requirements and leading project are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request management while working together with the Application Developers or IT specialists capability (mainly based in Toulouse, France), can be a challenge. Especially in a complex project like CDM@AMS where multiple companies and stakeholders work together.",
+      "highlights": ["Implementation & maintaining Milord Sirocco for KLM", "CMD@AMS implementation"]
     },
     {
       "company": "KLM Cityhopper",
@@ -86,8 +86,8 @@
       "website": "http://www.klm.com",
       "startDate": "2008-09-01",
       "endDate": "2011-06-30",
-      "summary": "Investigate processes, gathering requirements and leading projects are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request managment while working together with the Application Developers or IT specialists capability, can be a challenge. Mainly because they have different wishes and expectations. The biggest and most rewarding project I was involved in, was the development and standardization of the processes in our department Information Management. This transformation of an ad hoc organization to a more structured and solid department is a change I’m glad to have been part of.",
-      "highlights": ["Developing and standarization of processes","Implementation new Labor Agreement","Implementation new aircraft type"]
+      "summary": "Investigate processes, gathering requirements and leading projects are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request management while working together with the Application Developers or IT specialists capability, can be a challenge. Mainly because they have different wishes and expectations. The biggest and most rewarding project I was involved in, was the development and standardization of the processes in our department Information Management. This transformation of an ad-hoc organization to a more structured and solid department is a change I’m glad to have been part of.",
+      "highlights": ["Developing and standardization of processes","Implementation new Labor Agreement","Implementation new aircraft type"]
     },
     {
       "company": "KLM Cityhopper",
@@ -140,7 +140,7 @@
 		"studyType": "Bachelor",
     	"startDate": "2000-01-01",
         "endDate": "2004-08-01",
-        "summary": "I attended Higher Informatics at the Fontys University of Applied Sience. This study focusses on software development and project management.",
+        "summary": "I attended Higher Informatics at the Fontys University of Applied Science. This study focusses on software development and project management.",
         "courses": ["Software Engineering"]
     },
     {
@@ -148,7 +148,7 @@
     	"area": "Technische Informatica",
     	"startDate": "1996-08-01",
         "endDate": "2000-01-01",
-        "summary": "A basic education program focused on the use of Software Design, Network Control and Software itself (i.e. Autocat). There is also a curriculum based on electronics. During this program I worked on a project called The BitSim. This 8051 micro-controller that can be used in the classroom to train on Embedded Software design. I was responsable for creating a Basic parser."
+        "summary": "A basic education program focused on the use of Software Design, Network Control and Software itself (i.e. AutoCAD). There is also a curriculum based on electronics. During this program I worked on a project called The BitSim. This 8051 micro-controller that can be used in the classroom to train on Embedded Software design. I was responsible for creating a Basic parser."
     }
 
   ],
@@ -193,7 +193,7 @@
         "name": "Cloud",
         "level": "intermediate",
         "keywords": [
-          "AWS", "EC2", "RDS", "S3", "Azure", "Dropbox", "Google Drive", "SyncThing", "MS Office 365"
+          "AWS", "EC2", "RDS", "S3", "Azure", "Dropbox", "Google Drive", "Syncthing", "MS Office 365"
         ]
       }
   ],
@@ -212,7 +212,7 @@
       "name": "Photography",
 	  "summary": "Capture as many moments as you can. Memory will fade, pictures remain.",
       "keywords": [
-        "Outdore",
+        "Outdoor",
         "Children"
       ]
     },
@@ -228,7 +228,7 @@
   "references": [
     {
       "name": "Bram Bregman",
-      "reference": "I know Rudi as enthousiastic, flexible, driven and eager to learn. He has relevant expertise in the airline operations domain and he possesses a profound and broad knowledge of IT. Four years ago, I got acquainted with Rudi when he was a professional senior application developer. Nowadays, Rudi shows an equal high level of professionalism in his role as business analyst. This combination of experiences makes Rudi a valuable sparring-partner for both business as well as IT."
+      "reference": "I know Rudi as enthusiastic, flexible, driven and eager to learn. He has relevant expertise in the airline operations domain and he possesses a profound and broad knowledge of IT. Four years ago, I got acquainted with Rudi when he was a professional senior application developer. Nowadays, Rudi shows an equal high level of professionalism in his role as business analyst. This combination of experiences makes Rudi a valuable sparring-partner for both business as well as IT."
     },
 	{
       "name": "Mirjam Bonnema",
