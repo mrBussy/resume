@@ -45,7 +45,8 @@
       "summary": "As part of multiple SCRUM teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement. Also making sure that the requirement is the 'real' question that is asked by the PO.",
       "highlights": [
         "Improving SCRUM process eduBASE team",
-        "Improving the Sanoma Learning Content Chain"
+        "Improving the Sanoma Learning Content Chain",
+        "Creating the Content Chain Printing solution"
       ]
     },
     {
@@ -134,6 +135,15 @@
     }
   ],
   "education": [
+	{
+		"institution": "Udemy.com",
+		"area": "Gamification",
+		"studyType": "course",
+		"startData": "2018-01-01",
+		"endDate": 	 "2018-02-01",
+		"summary": "Learn the basics of gamification and engagement science, and how this powerful new design trend will affect your business from a practical, non-academic perspective.",
+		"courses": ["Designing Gamification Level 1 (Basic) + Certification", "Designing Gamification Level 2 (Intermediate) + Certification"]
+	},
     {
     	"institution": "Fontys Hogenscholen",
     	"area": "Higher Informatics",
