@@ -1,13 +1,12 @@
 ---
-layout: page
-title: Resume - {{ RAW.name }}
+title: "Resume - {{ RAW.name }}"
 tags: [Resume, {{ RAW.name }}]
+permalink: /resume/
 modified: 2016-02-10
 comments: true
-image:
-    feature: resume/desk.jpg
-    credit: Jeffrey Betts 
-    creditlink: http://mmt.li/ 
+header:
+	image: /assets/images/resume/desk.jpg
+	caption: "photo credit [Jeffrey Betts](http://mmt.li/)"
 ---
 
   <main id="main"> {{!<!-- Use your container markup of choice here -->}}
