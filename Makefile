@@ -7,7 +7,7 @@ HACKMYRESUME = hackmyresume
 all: pdf md
 
 pdf:
-	resume export --resume resume.json --theme jsonresume-theme-caffeine  --format pdf out/resume.pdf
+	$(HACKMYRESUME) BUILD resume.json TO out/resume.pdf 
 
 md:
 	$(HACKMYRESUME) BUILD resume.json TO out/resume.md -t ./theme/jekyll

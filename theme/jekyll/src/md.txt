@@ -9,10 +9,6 @@ header:
     caption: "photo credit [Jeffrey Betts](http://mmt.li/)"
 ---
 
-  <main id="main"> {{!<!-- Use your container markup of choice here -->}}
-      <div id="container">
-      <header>
-
         {{! <!--
           Display the candidate's name using "r" (the FRESH or JSON Resume
           object). Keep in mind that "r" contains the MARKDOWNIFIED version
@@ -28,12 +24,10 @@ header:
           (throw an exception) if contact is null, depending on Handlebars
           engine settings, but ((#has 'contact.email')) never will.
         --> }}
-        <div id="contact">
-          {{#if r.contact.email}}<div class="email"><a href="mailto:{{{ RAW.contact.email }}}">{{ RAW.contact.email }}</a></div>{{/if}}
-          {{#if r.contact.phone}}<div class="phone">{{ RAW.contact.phone }}</div>{{/if}}
-          {{#if r.contact.website}}<div class="website"><a href="{{{ RAW.contact.website }}}">{{ RAW.contact.website }}</a></div>{{/if}}
-        </div>
-      </header>
+
+{{#if r.contact.email}}[{{{ RAW.contact.email}}}](mailto:{{{ RAW.contact.email }}})  {{/if}}
+{{#if r.contact.phone}}[{{{ RAW.contact.phone}}}](tel:{{{ RAW.contact.phone }}})  {{/if}}
+{{#if r.contact.website}}[{{{ RAW.contact.website}}}](mailto:{{{ RAW.contact.website }}})  {{/if}}
 
 
 {{!<!--
